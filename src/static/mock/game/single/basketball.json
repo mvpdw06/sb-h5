@@ -1,0 +1,483 @@
+{
+  "data": {
+    "mainOddsMarketTypes": [],
+    "marketTypeFilters": [],
+    "code": 0,
+    "name": "gaming:sport:0",
+    "leagues": [
+      {
+        "id": 2524,
+        "name": "欧洲篮球联赛",
+        "region": { "code": 367, "name": "欧洲" },
+        "matches": [
+          {
+            "id": 200117,
+            "homeName": "皇家马德里",
+            "awayName": "莫斯科中央陆军",
+            "dateMatch": "2021-03-19T04:00:00+08:00",
+            "homeFullTimeScore": "49",
+            "awayFullTimeScore": "67",
+            "homeFullTimeRedCard": "",
+            "awayFullTimeRedCard": "",
+            "period": "第三节",
+            "inPlayTimer": "04:38",
+            "groundType": false,
+            "markets": [
+              {
+                "marketTypeName": "让球",
+                "specifierValues": [],
+                "marketTypeCode": 4,
+                "order": 0,
+                "marketScore": "49:67",
+                "selections": [
+                  {
+                    "id": "24115934",
+                    "name": "皇家马德里",
+                    "odds": "1.9400",
+                    "score": "49:67",
+                    "handicapDisplay": "+13.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "13.50",
+                    "selectionType": { "code": 1 },
+                    "groupId": "821836884186517505",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24115936",
+                    "name": "莫斯科中央陆军",
+                    "odds": "1.8200",
+                    "score": "49:67",
+                    "handicapDisplay": "-13.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "-13.50",
+                    "selectionType": { "code": 2 },
+                    "groupId": "821836884186517505",
+                    "rankNo": 2
+                  },
+                  {
+                    "id": "24144431",
+                    "name": "皇家马德里",
+                    "odds": "2.1300",
+                    "score": "49:67",
+                    "handicapDisplay": "+12.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "12.50",
+                    "selectionType": { "code": 1 },
+                    "groupId": "822115456339955715",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24144432",
+                    "name": "莫斯科中央陆军",
+                    "odds": "1.6400",
+                    "score": "49:67",
+                    "handicapDisplay": "-12.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "-12.50",
+                    "selectionType": { "code": 2 },
+                    "groupId": "822115456339955715",
+                    "rankNo": 2
+                  },
+                  {
+                    "id": "24144477",
+                    "name": "皇家马德里",
+                    "odds": "1.7500",
+                    "score": "49:67",
+                    "handicapDisplay": "+14.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "14.50",
+                    "selectionType": { "code": 1 },
+                    "groupId": "822116193136562177",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24144478",
+                    "name": "莫斯科中央陆军",
+                    "odds": "2.0100",
+                    "score": "49:67",
+                    "handicapDisplay": "-14.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "-14.50",
+                    "selectionType": { "code": 2 },
+                    "groupId": "822116193136562177",
+                    "rankNo": 2
+                  }
+                ],
+                "rankNo": -1
+              },
+              {
+                "marketTypeName": "大小盘",
+                "specifierValues": [],
+                "marketTypeCode": 7,
+                "order": 0,
+                "marketScore": "49:67",
+                "selections": [
+                  {
+                    "id": "24115938",
+                    "name": "大",
+                    "odds": "1.7500",
+                    "score": "49:67",
+                    "handicapDisplay": "178",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "178.00",
+                    "selectionType": { "code": 4 },
+                    "groupId": "821836884186517506",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24115940",
+                    "name": "小",
+                    "odds": "1.9100",
+                    "score": "49:67",
+                    "handicapDisplay": "178",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "178.00",
+                    "selectionType": { "code": 5 },
+                    "groupId": "821836884186517506",
+                    "rankNo": 2
+                  },
+                  {
+                    "id": "24115945",
+                    "name": "大",
+                    "odds": "1.5800",
+                    "score": "49:67",
+                    "handicapDisplay": "177",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "177.00",
+                    "selectionType": { "code": 4 },
+                    "groupId": "821836884245237770",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24115944",
+                    "name": "小",
+                    "odds": "2.0800",
+                    "score": "49:67",
+                    "handicapDisplay": "177",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "177.00",
+                    "selectionType": { "code": 5 },
+                    "groupId": "821836884245237770",
+                    "rankNo": 2
+                  },
+                  {
+                    "id": "24115951",
+                    "name": "大",
+                    "odds": "1.9600",
+                    "score": "49:67",
+                    "handicapDisplay": "179",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "179.00",
+                    "selectionType": { "code": 4 },
+                    "groupId": "821836884291375105",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24115949",
+                    "name": "小",
+                    "odds": "1.7000",
+                    "score": "49:67",
+                    "handicapDisplay": "179",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "179.00",
+                    "selectionType": { "code": 5 },
+                    "groupId": "821836884291375105",
+                    "rankNo": 2
+                  }
+                ],
+                "rankNo": -1
+              },
+              {
+                "marketTypeName": "全场 单双盘",
+                "specifierValues": [],
+                "marketTypeCode": 10,
+                "order": 0,
+                "marketScore": "49:67",
+                "selections": [
+                  {
+                    "id": "24115933",
+                    "name": "单",
+                    "odds": "1.9400",
+                    "score": "49:67",
+                    "handicapDisplay": "",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": null,
+                    "selectionType": { "code": 6 },
+                    "groupId": "821836884186517507",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24115935",
+                    "name": "双",
+                    "odds": "1.9400",
+                    "score": "49:67",
+                    "handicapDisplay": "",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": null,
+                    "selectionType": { "code": 7 },
+                    "groupId": "821836884186517507",
+                    "rankNo": 2
+                  }
+                ],
+                "rankNo": -1
+              },
+              {
+                "marketTypeName": "球队得分: 莫斯科中央陆军 最后一位数",
+                "specifierValues": ["displaykey:gaming:participant:80836"],
+                "marketTypeCode": 162,
+                "order": 0,
+                "marketScore": "49:67",
+                "selections": [
+                  {
+                    "id": "24115937",
+                    "name": "0或5",
+                    "odds": "4.5000",
+                    "score": "49:67",
+                    "handicapDisplay": "",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": null,
+                    "selectionType": { "code": 175 },
+                    "groupId": "821836884190711808",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24115939",
+                    "name": "1或6",
+                    "odds": "4.5000",
+                    "score": "49:67",
+                    "handicapDisplay": "",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": null,
+                    "selectionType": { "code": 176 },
+                    "groupId": "821836884190711808",
+                    "rankNo": 2
+                  },
+                  {
+                    "id": "24115942",
+                    "name": "2或7",
+                    "odds": "4.5000",
+                    "score": "49:67",
+                    "handicapDisplay": "",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": null,
+                    "selectionType": { "code": 177 },
+                    "groupId": "821836884190711808",
+                    "rankNo": 3
+                  },
+                  {
+                    "id": "24115941",
+                    "name": "3或8",
+                    "odds": "4.5000",
+                    "score": "49:67",
+                    "handicapDisplay": "",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": null,
+                    "selectionType": { "code": 178 },
+                    "groupId": "821836884190711808",
+                    "rankNo": 4
+                  },
+                  {
+                    "id": "24115943",
+                    "name": "4或9",
+                    "odds": "4.5000",
+                    "score": "49:67",
+                    "handicapDisplay": "",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": null,
+                    "selectionType": { "code": 179 },
+                    "groupId": "821836884190711808",
+                    "rankNo": 5
+                  }
+                ],
+                "rankNo": -1
+              },
+              {
+                "marketTypeName": "球队得分: 皇家马德里 最后一位数",
+                "specifierValues": ["displaykey:gaming:participant:83322"],
+                "marketTypeCode": 162,
+                "order": 0,
+                "marketScore": "49:67",
+                "selections": [
+                  {
+                    "id": "24115947",
+                    "name": "0或5",
+                    "odds": "4.5000",
+                    "score": "49:67",
+                    "handicapDisplay": "",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": null,
+                    "selectionType": { "code": 175 },
+                    "groupId": "821836884186517508",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24115946",
+                    "name": "1或6",
+                    "odds": "4.5000",
+                    "score": "49:67",
+                    "handicapDisplay": "",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": null,
+                    "selectionType": { "code": 176 },
+                    "groupId": "821836884186517508",
+                    "rankNo": 2
+                  },
+                  {
+                    "id": "24115950",
+                    "name": "2或7",
+                    "odds": "4.5000",
+                    "score": "49:67",
+                    "handicapDisplay": "",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": null,
+                    "selectionType": { "code": 177 },
+                    "groupId": "821836884186517508",
+                    "rankNo": 3
+                  },
+                  {
+                    "id": "24115948",
+                    "name": "3或8",
+                    "odds": "4.5000",
+                    "score": "49:67",
+                    "handicapDisplay": "",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": null,
+                    "selectionType": { "code": 178 },
+                    "groupId": "821836884186517508",
+                    "rankNo": 4
+                  },
+                  {
+                    "id": "24115952",
+                    "name": "4或9",
+                    "odds": "4.5000",
+                    "score": "49:67",
+                    "handicapDisplay": "",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": null,
+                    "selectionType": { "code": 179 },
+                    "groupId": "821836884186517508",
+                    "rankNo": 5
+                  }
+                ],
+                "rankNo": -1
+              },
+              {
+                "marketTypeName": "球队得分: 皇家马德里 大小盘",
+                "specifierValues": ["displaykey:gaming:participant:83322"],
+                "marketTypeCode": 163,
+                "order": 0,
+                "marketScore": "49:67",
+                "selections": [
+                  {
+                    "id": "24115953",
+                    "name": "大",
+                    "odds": "1.7700",
+                    "score": "49:67",
+                    "handicapDisplay": "82",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "82.00",
+                    "selectionType": { "code": 4 },
+                    "groupId": "821836884555616256",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24115954",
+                    "name": "小",
+                    "odds": "1.8900",
+                    "score": "49:67",
+                    "handicapDisplay": "82",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "82.00",
+                    "selectionType": { "code": 5 },
+                    "groupId": "821836884555616256",
+                    "rankNo": 2
+                  }
+                ],
+                "rankNo": -1
+              },
+              {
+                "marketTypeName": "球队得分: 莫斯科中央陆军 大小盘",
+                "specifierValues": ["displaykey:gaming:participant:80836"],
+                "marketTypeCode": 163,
+                "order": 0,
+                "marketScore": "49:67",
+                "selections": [
+                  {
+                    "id": "24115956",
+                    "name": "大",
+                    "odds": "1.8400",
+                    "score": "49:67",
+                    "handicapDisplay": "96",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "96.00",
+                    "selectionType": { "code": 4 },
+                    "groupId": "821836884660473857",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24115955",
+                    "name": "小",
+                    "odds": "1.8200",
+                    "score": "49:67",
+                    "handicapDisplay": "96",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "96.00",
+                    "selectionType": { "code": 5 },
+                    "groupId": "821836884660473857",
+                    "rankNo": 2
+                  }
+                ],
+                "rankNo": -1
+              }
+            ],
+            "marketCount": 7,
+            "liveStatus": 2,
+            "name": "皇家马德里 v 莫斯科中央陆军",
+            "matchType": 1,
+            "homeRankNo": 1,
+            "homeRefNo": "",
+            "homeIcon": "other.png",
+            "awayRankNo": 1,
+            "awayRefNo": "",
+            "awayIcon": "other.png",
+            "awayId": 80836,
+            "homeId": 83322
+          }
+        ],
+        "rankNo": 0,
+        "icon": "other.png"
+      }
+    ]
+  },
+  "carrier": null,
+  "code": "COMM0000",
+  "msg": "COMM0000 : Success"
+}

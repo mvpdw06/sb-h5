@@ -1,0 +1,61 @@
+{
+  "data": {
+    "menu": {
+      "inPlay": [
+        {
+          "code": 1,
+          "name": "足球",
+          "order": 0,
+          "matchCount": 212
+        },
+        {
+          "code": 2,
+          "name": "篮球",
+          "order": 0,
+          "matchCount": 142
+        }
+      ],
+      "preStart": [
+        {
+          "code": 1,
+          "name": "足球",
+          "order": 0,
+          "matchCount": 315
+        },
+        {
+          "code": 2,
+          "name": "篮球",
+          "order": 0,
+          "matchCount": 3
+        },
+        {
+          "code": 13,
+          "name": "排球",
+          "order": 0,
+          "matchCount": 10
+        },
+        {
+          "code": 36,
+          "name": "绝对武力GO",
+          "order": 0,
+          "matchCount": 2
+        },
+        {
+          "code": 37,
+          "name": "英雄联盟",
+          "order": 0,
+          "matchCount": 7
+        },
+        {
+          "code": 38,
+          "name": "DOTA 2",
+          "order": 0,
+          "matchCount": 5
+        }
+      ]
+    }
+  },
+  "carrier": null,
+  "code": "COMM0000",
+  "msg": "COMM0000 : Success"
+}

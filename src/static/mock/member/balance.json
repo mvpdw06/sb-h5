@@ -1,0 +1,9 @@
+{
+  "carrier": null,
+  "code": "COMM0000",
+  "msg": "COMM0000 : Success",
+  "data": {
+    "balance": "99999915754.86000000",
+    "currencyCode": "CNY"
+  }
+}

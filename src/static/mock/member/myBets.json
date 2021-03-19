@@ -1,0 +1,107 @@
+{
+  "data": {
+    "unSettled": {
+      "data": [
+        {
+          "wagerNo": "o_784235337281961984",
+          "betTypeCode": 101,
+          "betTypeName": "Single",
+          "totalStake": "11",
+          "totalReturnAmount": "0",
+          "selections": [
+            {
+              "dateMatch": "2020-02-22T15:50:00+08:00",
+              "sportCode": 1,
+              "sportName": "Football",
+              "matchId": 15,
+              "marketTypeCode": 7,
+              "marketTypeName": "Over/Under",
+              "specifierValues": [],
+              "selectionName": "Over",
+              "selectionId": "552422",
+              "betOdds": "1.35",
+              "handicap": "3.50",
+              "currentScore": "3:2",
+              "outcomeCode": 0,
+              "isDisplayScore": false,
+              "handicapDisplay": "3.5",
+              "matchName": "Team A v Team B",
+              "homeName": "Team A",
+              "awayName": "Team B",
+              "homeId": 4,
+              "awayId": 5,
+              "outcomeName": "None"
+            }
+          ],
+          "isCancelled": false,
+          "isHold": false,
+          "isVoid": false,
+          "displayStatus": 1,
+          "datePlaced": "2020-12-04T09:51:14+08:00",
+          "dateSettled": null,
+          "additionalId": "",
+          "expectedReturnAmount": "14.85"
+        }
+      ],
+      "pageIndex": 1,
+      "pageSize": 1,
+      "totalCount": 149
+    },
+    "unSettledInPlay": {
+      "data": [
+        {
+          "wagerNo": "o_784235337281961984",
+          "betTypeCode": 101,
+          "betTypeName": "Single",
+          "totalStake": "11",
+          "totalReturnAmount": "0",
+          "selections": [
+            {
+              "dateMatch": "2020-02-22T15:50:00+08:00",
+              "sportCode": 1,
+              "sportName": "Football",
+              "matchId": 15,
+              "marketTypeCode": 7,
+              "marketTypeName": "Over/Under",
+              "specifierValues": [],
+              "selectionName": "Over",
+              "selectionId": "552422",
+              "betOdds": "1.35",
+              "handicap": "3.50",
+              "currentScore": "3:2",
+              "outcomeCode": 0,
+              "isDisplayScore": false,
+              "handicapDisplay": "3.5",
+              "matchName": "Team A v Team B",
+              "homeName": "Team A",
+              "awayName": "Team B",
+              "homeId": 4,
+              "awayId": 5,
+              "outcomeName": "None"
+            }
+          ],
+          "isCancelled": false,
+          "isHold": false,
+          "isVoid": false,
+          "displayStatus": 1,
+          "datePlaced": "2020-12-04T09:51:14+08:00",
+          "dateSettled": null,
+          "additionalId": "",
+          "expectedReturnAmount": "14.85"
+        }
+      ],
+      "pageIndex": 1,
+      "pageSize": 1,
+      "totalCount": 149
+    },
+    "settled": {
+      "data": [],
+      "pageIndex": 1,
+      "pageSize": 10,
+      "totalCount": 0
+    }
+  },
+  "carrier": null,
+  "code": "COMM0000",
+  "msg": "COMM0000 : Success"
+}

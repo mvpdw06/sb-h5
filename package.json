@@ -1,0 +1,41 @@
+{
+  "name": "sb-h5",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write '{build,src}/**/*.js'",
+    "lint": "eslint '{build,src}/**/*.js'",
+    "dev": "webpack serve -c build/webpack.js",
+    "build": "NODE_ENV=production webpack -c build/webpack.js",
+    "serve": "serve dist"
+  },
+  "devDependencies": {
+    "@0y0/babel-preset-vanilla": "^1.1.1",
+    "@0y0/eslint-config-vanilla": "^1.2.2",
+    "@0y0/webpack-config-vanilla": "^1.2.1",
+    "dayjs": "^1.10.4",
+    "eslint": "^7.22.0",
+    "gsap": "^3.6.0",
+    "lodash": "^4.17.21",
+    "mobx": "^6.1.8",
+    "normalize.css": "^8.0.1",
+    "pixi.js": "^6.0.0",
+    "prettier": "^2.2.1",
+    "serve": "^11.3.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "babel": {
+    "presets": [
+      "@0y0/vanilla"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "@0y0/vanilla"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  }
+}

@@ -1,0 +1,648 @@
+{
+  "data": {
+    "mainOddsMarketTypes": [
+      { "code": 4, "name": "让球", "order": 0 },
+      { "code": 7, "name": "大小盘", "order": 0 },
+      { "code": 13, "name": "全场 独赢盘", "order": 0 }
+    ],
+    "marketTypeFilters": [],
+    "code": 2,
+    "name": "篮球",
+    "leagues": [
+      {
+        "id": 2524,
+        "name": "欧洲篮球联赛",
+        "region": { "code": 367, "name": "欧洲" },
+        "matches": [
+          {
+            "id": 200117,
+            "homeName": "皇家马德里",
+            "awayName": "莫斯科中央陆军",
+            "dateMatch": "2021-03-19T04:00:00+08:00",
+            "homeFullTimeScore": "49",
+            "awayFullTimeScore": "65",
+            "homeFullTimeRedCard": "",
+            "awayFullTimeRedCard": "",
+            "period": "第三节",
+            "inPlayTimer": "04:52",
+            "groundType": false,
+            "markets": [
+              {
+                "marketTypeName": "让球",
+                "specifierValues": [],
+                "marketTypeCode": 4,
+                "order": 0,
+                "marketScore": "49:65",
+                "selections": [
+                  {
+                    "id": "24115934",
+                    "name": "皇家马德里",
+                    "odds": "1.9300",
+                    "score": "49:65",
+                    "handicapDisplay": "+13.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "13.50",
+                    "selectionType": { "code": 1 },
+                    "groupId": "821836884186517505",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24115936",
+                    "name": "莫斯科中央陆军",
+                    "odds": "1.8300",
+                    "score": "49:65",
+                    "handicapDisplay": "-13.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "-13.50",
+                    "selectionType": { "code": 2 },
+                    "groupId": "821836884186517505",
+                    "rankNo": 2
+                  },
+                  {
+                    "id": "24144431",
+                    "name": "皇家马德里",
+                    "odds": "2.0500",
+                    "score": "49:65",
+                    "handicapDisplay": "+12.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "12.50",
+                    "selectionType": { "code": 1 },
+                    "groupId": "822115456339955715",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24144432",
+                    "name": "莫斯科中央陆军",
+                    "odds": "1.7100",
+                    "score": "49:65",
+                    "handicapDisplay": "-12.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "-12.50",
+                    "selectionType": { "code": 2 },
+                    "groupId": "822115456339955715",
+                    "rankNo": 2
+                  },
+                  {
+                    "id": "24144477",
+                    "name": "皇家马德里",
+                    "odds": "1.7900",
+                    "score": "49:65",
+                    "handicapDisplay": "+14.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "14.50",
+                    "selectionType": { "code": 1 },
+                    "groupId": "822116193136562177",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24144478",
+                    "name": "莫斯科中央陆军",
+                    "odds": "1.9700",
+                    "score": "49:65",
+                    "handicapDisplay": "-14.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "-14.50",
+                    "selectionType": { "code": 2 },
+                    "groupId": "822116193136562177",
+                    "rankNo": 2
+                  }
+                ],
+                "rankNo": -1
+              },
+              {
+                "marketTypeName": "大小盘",
+                "specifierValues": [],
+                "marketTypeCode": 7,
+                "order": 0,
+                "marketScore": "49:65",
+                "selections": [
+                  {
+                    "id": "24115938",
+                    "name": "大",
+                    "odds": "1.9100",
+                    "score": "49:65",
+                    "handicapDisplay": "178",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "178.00",
+                    "selectionType": { "code": 4 },
+                    "groupId": "821836884186517506",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24115940",
+                    "name": "小",
+                    "odds": "1.7500",
+                    "score": "49:65",
+                    "handicapDisplay": "178",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "178.00",
+                    "selectionType": { "code": 5 },
+                    "groupId": "821836884186517506",
+                    "rankNo": 2
+                  },
+                  {
+                    "id": "24115945",
+                    "name": "大",
+                    "odds": "1.5900",
+                    "score": "49:65",
+                    "handicapDisplay": "176.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "176.50",
+                    "selectionType": { "code": 4 },
+                    "groupId": "821836884245237770",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24115944",
+                    "name": "小",
+                    "odds": "2.0700",
+                    "score": "49:65",
+                    "handicapDisplay": "176.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "176.50",
+                    "selectionType": { "code": 5 },
+                    "groupId": "821836884245237770",
+                    "rankNo": 2
+                  },
+                  {
+                    "id": "24115951",
+                    "name": "大",
+                    "odds": "1.9400",
+                    "score": "49:65",
+                    "handicapDisplay": "178.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "178.50",
+                    "selectionType": { "code": 4 },
+                    "groupId": "821836884291375105",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24115949",
+                    "name": "小",
+                    "odds": "1.7200",
+                    "score": "49:65",
+                    "handicapDisplay": "178.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "178.50",
+                    "selectionType": { "code": 5 },
+                    "groupId": "821836884291375105",
+                    "rankNo": 2
+                  }
+                ],
+                "rankNo": -1
+              }
+            ],
+            "marketCount": 7,
+            "liveStatus": 2,
+            "name": "皇家马德里 v 莫斯科中央陆军",
+            "matchType": 1,
+            "homeRankNo": 1,
+            "homeRefNo": "",
+            "homeIcon": "other.png",
+            "awayRankNo": 1,
+            "awayRefNo": "",
+            "awayIcon": "other.png",
+            "awayId": 80836,
+            "homeId": 83322
+          }
+        ],
+        "rankNo": 0,
+        "icon": "other.png"
+      },
+      {
+        "id": 2528,
+        "name": "美国大学篮球",
+        "region": { "code": 340, "name": "美洲" },
+        "matches": [
+          {
+            "id": 200268,
+            "homeName": "南德州",
+            "awayName": "圣玛利斯山",
+            "dateMatch": "2021-03-19T05:10:00+08:00",
+            "homeFullTimeScore": "4",
+            "awayFullTimeScore": "3",
+            "homeFullTimeRedCard": "",
+            "awayFullTimeRedCard": "",
+            "period": "上半场",
+            "inPlayTimer": "16:50",
+            "groundType": false,
+            "markets": [
+              {
+                "marketTypeName": "让球",
+                "specifierValues": [],
+                "marketTypeCode": 4,
+                "order": 0,
+                "marketScore": "4:3",
+                "selections": [
+                  {
+                    "id": "24132539",
+                    "name": "南德州",
+                    "odds": "1.7900",
+                    "score": "4:3",
+                    "handicapDisplay": "+1",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "1.00",
+                    "selectionType": { "code": 1 },
+                    "groupId": "821945602026786818",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24132525",
+                    "name": "圣玛利斯山",
+                    "odds": "1.9100",
+                    "score": "4:3",
+                    "handicapDisplay": "-1",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "-1.00",
+                    "selectionType": { "code": 2 },
+                    "groupId": "821945602026786818",
+                    "rankNo": 2
+                  },
+                  {
+                    "id": "24154221",
+                    "name": "南德州",
+                    "odds": "1.9400",
+                    "score": "4:3",
+                    "handicapDisplay": "0",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "0.00",
+                    "selectionType": { "code": 1 },
+                    "groupId": "822215343320616967",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24154223",
+                    "name": "圣玛利斯山",
+                    "odds": "1.7600",
+                    "score": "4:3",
+                    "handicapDisplay": "0",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "0.00",
+                    "selectionType": { "code": 2 },
+                    "groupId": "822215343320616967",
+                    "rankNo": 2
+                  },
+                  {
+                    "id": "24154222",
+                    "name": "南德州",
+                    "odds": "1.6700",
+                    "score": "4:3",
+                    "handicapDisplay": "+2",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "2.00",
+                    "selectionType": { "code": 1 },
+                    "groupId": "822215343366754305",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24154224",
+                    "name": "圣玛利斯山",
+                    "odds": "2.0300",
+                    "score": "4:3",
+                    "handicapDisplay": "-2",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "-2.00",
+                    "selectionType": { "code": 2 },
+                    "groupId": "822215343366754305",
+                    "rankNo": 2
+                  }
+                ],
+                "rankNo": -1
+              },
+              {
+                "marketTypeName": "大小盘",
+                "specifierValues": [],
+                "marketTypeCode": 7,
+                "order": 0,
+                "marketScore": "4:3",
+                "selections": [
+                  {
+                    "id": "24132526",
+                    "name": "大",
+                    "odds": "1.8900",
+                    "score": "4:3",
+                    "handicapDisplay": "130",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "130.00",
+                    "selectionType": { "code": 4 },
+                    "groupId": "821945602026786820",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24132527",
+                    "name": "小",
+                    "odds": "1.7100",
+                    "score": "4:3",
+                    "handicapDisplay": "130",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "130.00",
+                    "selectionType": { "code": 5 },
+                    "groupId": "821945602026786820",
+                    "rankNo": 2
+                  },
+                  {
+                    "id": "24154225",
+                    "name": "大",
+                    "odds": "1.7500",
+                    "score": "4:3",
+                    "handicapDisplay": "129",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "129.00",
+                    "selectionType": { "code": 4 },
+                    "groupId": "822215343320616968",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24154227",
+                    "name": "小",
+                    "odds": "1.8500",
+                    "score": "4:3",
+                    "handicapDisplay": "129",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "129.00",
+                    "selectionType": { "code": 5 },
+                    "groupId": "822215343320616968",
+                    "rankNo": 2
+                  },
+                  {
+                    "id": "24154226",
+                    "name": "大",
+                    "odds": "2.0200",
+                    "score": "4:3",
+                    "handicapDisplay": "131",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "131.00",
+                    "selectionType": { "code": 4 },
+                    "groupId": "822215343366754307",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24154228",
+                    "name": "小",
+                    "odds": "1.5800",
+                    "score": "4:3",
+                    "handicapDisplay": "131",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "131.00",
+                    "selectionType": { "code": 5 },
+                    "groupId": "822215343366754307",
+                    "rankNo": 2
+                  }
+                ],
+                "rankNo": -1
+              }
+            ],
+            "marketCount": 10,
+            "liveStatus": 2,
+            "name": "南德州 v 圣玛利斯山",
+            "matchType": 1,
+            "homeRankNo": 1,
+            "homeRefNo": "",
+            "homeIcon": "other.png",
+            "awayRankNo": 1,
+            "awayRefNo": "",
+            "awayIcon": "other.png",
+            "awayId": 83641,
+            "homeId": 83921
+          }
+        ],
+        "rankNo": 0,
+        "icon": "other.png"
+      },
+      {
+        "id": 2984,
+        "name": "意大利篮球A2联赛",
+        "region": { "code": 367, "name": "欧洲" },
+        "matches": [
+          {
+            "id": 200413,
+            "homeName": "乌拉尼亚米兰",
+            "awayName": "奥尔齐诺维",
+            "dateMatch": "2021-03-19T03:45:00+08:00",
+            "homeFullTimeScore": "81",
+            "awayFullTimeScore": "85",
+            "homeFullTimeRedCard": "",
+            "awayFullTimeRedCard": "",
+            "period": "第四节",
+            "inPlayTimer": "05:08",
+            "groundType": false,
+            "markets": [
+              {
+                "marketTypeName": "让球",
+                "specifierValues": [],
+                "marketTypeCode": 4,
+                "order": 0,
+                "marketScore": "81:85",
+                "selections": [
+                  {
+                    "id": "24142952",
+                    "name": "乌拉尼亚米兰",
+                    "odds": "1.9700",
+                    "score": "81:85",
+                    "handicapDisplay": "+3.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "3.50",
+                    "selectionType": { "code": 1 },
+                    "groupId": "822101835346104320",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24142953",
+                    "name": "奥尔齐诺维",
+                    "odds": "1.7900",
+                    "score": "81:85",
+                    "handicapDisplay": "-3.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "-3.50",
+                    "selectionType": { "code": 2 },
+                    "groupId": "822101835346104320",
+                    "rankNo": 2
+                  }
+                ],
+                "rankNo": -1
+              },
+              {
+                "marketTypeName": "大小盘",
+                "specifierValues": [],
+                "marketTypeCode": 7,
+                "order": 0,
+                "marketScore": "81:85",
+                "selections": [
+                  {
+                    "id": "24142956",
+                    "name": "大",
+                    "odds": "1.7700",
+                    "score": "81:85",
+                    "handicapDisplay": "191.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "191.50",
+                    "selectionType": { "code": 4 },
+                    "groupId": "822101835346104321",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24142957",
+                    "name": "小",
+                    "odds": "1.8900",
+                    "score": "81:85",
+                    "handicapDisplay": "191.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "191.50",
+                    "selectionType": { "code": 5 },
+                    "groupId": "822101835346104321",
+                    "rankNo": 2
+                  }
+                ],
+                "rankNo": -1
+              }
+            ],
+            "marketCount": 7,
+            "liveStatus": 2,
+            "name": "乌拉尼亚米兰 v 奥尔齐诺维",
+            "matchType": 1,
+            "homeRankNo": 1,
+            "homeRefNo": "",
+            "homeIcon": "other.png",
+            "awayRankNo": 1,
+            "awayRefNo": "",
+            "awayIcon": "other.png",
+            "awayId": 84281,
+            "homeId": 83996
+          },
+          {
+            "id": 200414,
+            "homeName": "拉韦纳皮耶罗马内蒂",
+            "awayName": "圣塞韦罗篮球队",
+            "dateMatch": "2021-03-19T03:45:00+08:00",
+            "homeFullTimeScore": "74",
+            "awayFullTimeScore": "54",
+            "homeFullTimeRedCard": "",
+            "awayFullTimeRedCard": "",
+            "period": "第四节",
+            "inPlayTimer": "05:54",
+            "groundType": false,
+            "markets": [
+              {
+                "marketTypeName": "让球",
+                "specifierValues": [],
+                "marketTypeCode": 4,
+                "order": 0,
+                "marketScore": "74:54",
+                "selections": [
+                  {
+                    "id": "24142964",
+                    "name": "拉韦纳皮耶罗马内蒂",
+                    "odds": "1.8400",
+                    "score": "74:54",
+                    "handicapDisplay": "-21",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "-21.00",
+                    "selectionType": { "code": 1 },
+                    "groupId": "822101835551625216",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24142966",
+                    "name": "圣塞韦罗篮球队",
+                    "odds": "1.9200",
+                    "score": "74:54",
+                    "handicapDisplay": "+21",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "21.00",
+                    "selectionType": { "code": 2 },
+                    "groupId": "822101835551625216",
+                    "rankNo": 2
+                  }
+                ],
+                "rankNo": -1
+              },
+              {
+                "marketTypeName": "大小盘",
+                "specifierValues": [],
+                "marketTypeCode": 7,
+                "order": 0,
+                "marketScore": "74:54",
+                "selections": [
+                  {
+                    "id": "24142965",
+                    "name": "大",
+                    "odds": "1.8600",
+                    "score": "74:54",
+                    "handicapDisplay": "150.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "150.50",
+                    "selectionType": { "code": 4 },
+                    "groupId": "822101835551625217",
+                    "rankNo": 1
+                  },
+                  {
+                    "id": "24142967",
+                    "name": "小",
+                    "odds": "1.8000",
+                    "score": "74:54",
+                    "handicapDisplay": "150.5",
+                    "status": 1,
+                    "liveStatus": 2,
+                    "handicap": "150.50",
+                    "selectionType": { "code": 5 },
+                    "groupId": "822101835551625217",
+                    "rankNo": 2
+                  }
+                ],
+                "rankNo": -1
+              }
+            ],
+            "marketCount": 7,
+            "liveStatus": 2,
+            "name": "拉韦纳皮耶罗马内蒂 v 圣塞韦罗篮球队",
+            "matchType": 1,
+            "homeRankNo": 1,
+            "homeRefNo": "",
+            "homeIcon": "other.png",
+            "awayRankNo": 1,
+            "awayRefNo": "",
+            "awayIcon": "other.png",
+            "awayId": 84279,
+            "homeId": 84287
+          }
+        ],
+        "rankNo": 0,
+        "icon": "other.png"
+      }
+    ]
+  },
+  "carrier": null,
+  "code": "COMM0000",
+  "msg": "COMM0000 : Success"
+}
