@@ -15,7 +15,12 @@ export function resolveSpaceAround(value) {
 }
 
 export function setStyleFn(view, draw, fns) {
-  view.draw = draw
+  if (typeof draw === 'object') {
+    fns = draw
+    draw = view.draw
+  } else {
+    view.draw = draw
+  }
   for (const k in fns) view[k] = useStyleFn(fns[k])
 
   function useStyleFn(setupFn) {

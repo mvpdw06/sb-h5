@@ -45,7 +45,8 @@ export default function Box(...children) {
     setSpacing: s => (_spacing = s),
     setBackgroundColor: c => ((_bg = new Graphics()), (_bgColor = c)),
     set9SliceBackground: (...p) => (_bg = new NineSlicePlane(...p)),
-    addView: (...v) => _views.push(...v)
+    addView: (...v) => _views.push(...v),
+    clearViews: () => (_views = [])
   })
   box.setBackgroundTexture = texture => _bg?.texture && (_bg.texture = texture)
   return box

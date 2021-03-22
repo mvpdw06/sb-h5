@@ -29,15 +29,13 @@ const itemStyle = {
 export default async function EventMenu({ onSelect }) {
   const textures = await asset.loadTextures()
 
-  return Menu({
-    options: events,
-    renderItem: renderMenuItem,
-    onActive: onMenuItemActive
-  })
+  return Menu({ renderItem: renderMenuItem })
+    .setOptions(events)
     .setBackgroundColor(color.primary)
     .setWidth(style.width)
     .setPadding(menuStyle.padding)
     .setSpacing(menuStyle.spacing)
+    .onActive(onMenuItemActive)
 
   function renderMenuItem(event) {
     return Button()
