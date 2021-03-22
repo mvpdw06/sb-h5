@@ -1,9 +1,9 @@
 import { action, flow, makeObservable, observable } from 'mobx'
 import { EventType } from '@app/constants/enum'
-import * as api from '@app/utils/api'
 import resource from '@app/utils/resource'
+import * as api from './api'
 
-export default class MatchListSceneStore {
+export default class GameStore {
   @observable
   activeEventType = EventType.Featured
 
@@ -40,7 +40,7 @@ export default class MatchListSceneStore {
 
   @flow
   *loadSportMenu() {
-    this.sportMenu = resource.fetch()
+    this.sportMenu = resource.start()
     try {
       const data = yield api.querySportMenu()
       const sports = data.menu.inPlay
@@ -53,7 +53,7 @@ export default class MatchListSceneStore {
 
   @flow
   *loadMatchList() {
-    this.matchList = resource.fetch()
+    this.matchList = resource.start()
     try {
       const result = yield api.queryTodayMatches()
       this.matchList = resource.fulfill(result)
