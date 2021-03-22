@@ -1,7 +1,7 @@
 import { autorun } from 'mobx'
 import { gameStore } from '@app/stores'
 import Box from '@app/views/shared/Box'
-import EventMenu from './EventMenu'
+import EventMenu from './menu/EventMenu'
 import MatchListBody from './MatchListBody'
 import MatchListHead from './MatchListHead'
 import SportMenu from './SportMenu'
