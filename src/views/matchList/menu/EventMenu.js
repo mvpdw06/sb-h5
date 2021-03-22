@@ -1,3 +1,4 @@
+import { Text } from 'pixi.js'
 import { Event } from '@app/constants/enum'
 import asset from '@app/views/app/asset'
 import style, { color } from '@app/views/app/style'
@@ -16,7 +17,7 @@ const menuStyle = {
   spacing: 8
 }
 
-const optStyle = {
+const itemStyle = {
   bg: 'menuBtn',
   bgActive: 'menuBtnActive',
   bgSlicing: [3, 2, 3, 4],
@@ -40,17 +41,17 @@ export default async function EventMenu({ onSelect }) {
 
   function renderMenuItem(event) {
     return Button()
-      .set9SliceBackground(textures[optStyle.bg], ...optStyle.bgSlicing)
-      .setText(event.title, optStyle.text)
-      .setPadding(optStyle.padding)
-      .setHeight(optStyle.height)
+      .addView(new Text(event.title, itemStyle.text))
+      .set9SliceBackground(textures[itemStyle.bg], ...itemStyle.bgSlicing)
+      .setPadding(itemStyle.padding)
+      .setHeight(itemStyle.height)
       .onClick(() => onSelect(event.key))
   }
 
   function onMenuItemActive(activeItem, _, items) {
     for (const item of items) {
       const active = item === activeItem
-      const { bg, bgActive } = optStyle
+      const { bg, bgActive } = itemStyle
       item.setBackgroundTexture(active ? textures[bgActive] : textures[bg])
     }
   }

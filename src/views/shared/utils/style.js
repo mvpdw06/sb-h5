@@ -14,13 +14,14 @@ export function resolveSpaceAround(value) {
   return value |> resolveShorthandValues |> toNumberArray
 }
 
-export function setStyleFn(view, measure, fns) {
+export function setStyleFn(view, draw, fns) {
+  view.draw = draw
   for (const k in fns) view[k] = useStyleFn(fns[k])
 
   function useStyleFn(setupFn) {
     return (...p) => {
       setupFn(...p)
-      requestAnimationFrame(measure)
+      window.requestAnimationFrame(draw)
       return view
     }
   }
