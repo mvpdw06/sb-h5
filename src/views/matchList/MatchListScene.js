@@ -1,31 +1,25 @@
 import { autorun } from 'mobx'
-import { Container } from 'pixi.js'
 import { gameStore } from '@app/stores'
-import EventTypeTabs from './EventTypeTabs'
+import Box from '@app/views/shared/Box'
+import EventMenu from './EventMenu'
 import MatchListBody from './MatchListBody'
 import MatchListHead from './MatchListHead'
 import SportMenu from './SportMenu'
 
 export default async function MatchListScene() {
   const [
-    eventTypeTabs,
+    eventMenu,
     sportMenu,
     matchListHead,
     matchListBody
   ] = await Promise.all([
-    EventTypeTabs({ onSelect: gameStore.setActiveEventType }),
+    EventMenu({ onSelect: gameStore.setActiveEvent }),
     SportMenu({ onSelect: gameStore.setActiveSport }),
     MatchListHead({ onSelectMarketType: gameStore.setActiveMarketType }),
     MatchListBody()
   ])
-  sportMenu.y = eventTypeTabs.height
-  matchListHead.y = sportMenu.y + sportMenu.height
-  matchListBody.y = matchListHead.y + matchListHead.height
 
-  const scene = new Container()
-  scene.addChild(eventTypeTabs, sportMenu, matchListHead, matchListBody)
-
-  autorun(() => eventTypeTabs.setActiveEventType(gameStore.activeEventType))
+  autorun(() => eventMenu.setActive(gameStore.activeEvent))
   autorun(() => sportMenu.setSportMenu(gameStore.sportMenu))
   autorun(() => sportMenu.setActiveSport(gameStore.activeSport))
   autorun(() => matchListHead.setMatchList(gameStore.matchList))
@@ -35,5 +29,5 @@ export default async function MatchListScene() {
   gameStore.loadSportMenu()
   gameStore.loadMatchList()
 
-  return scene
+  return Box(eventMenu, sportMenu, matchListHead, matchListBody).vertical()
 }

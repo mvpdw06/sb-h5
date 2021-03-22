@@ -1,4 +1,4 @@
-export const EventType = {
+export const Event = {
   Featured: 1,
   InPlay: 2,
   Today: 3,

@@ -1,11 +1,11 @@
 import { action, flow, makeObservable, observable } from 'mobx'
-import { EventType } from '@app/constants/enum'
+import { Event } from '@app/constants/enum'
 import resource from '@app/utils/resource'
 import * as api from './api'
 
 export default class GameStore {
   @observable
-  activeEventType = EventType.Featured
+  activeEvent = Event.Featured
 
   @observable
   activeSport
@@ -24,8 +24,8 @@ export default class GameStore {
   }
 
   @action.bound
-  setActiveEventType(type) {
-    this.activeEventType = type
+  setActiveEvent(code) {
+    this.activeEvent = code
   }
 
   @action.bound
