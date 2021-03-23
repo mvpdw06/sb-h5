@@ -19,7 +19,8 @@ export default async function SelectionGroup({ width, height, selections }) {
       const box = await OddsBox({
         width: boxWidth,
         height: boxHeight,
-        odds: selection.odds
+        odds: selection.odds,
+        selection
       })
       box.x = (width / selections.length) * idx + oddsBoxStyle.marginX
       box.y = containerStyle.paddingY
