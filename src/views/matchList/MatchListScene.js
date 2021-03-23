@@ -1,40 +1,33 @@
 import { autorun } from 'mobx'
-import { Container } from 'pixi.js'
-import MatchListSceneStore from '@app/stores/MatchListSceneStore'
-import EventTypeTabs from './EventTypeTabs'
+import { gameStore } from '@app/stores'
+import Box from '@app/views/shared/Box'
+import EventMenu from './menu/EventMenu'
+import SportMenu from './menu/SportMenu'
 import MatchListBody from './MatchListBody'
 import MatchListHead from './MatchListHead'
-import SportMenu from './SportMenu'
 
 export default async function MatchListScene() {
-  const store = new MatchListSceneStore()
   const [
-    eventTypeTabs,
+    eventMenu,
     sportMenu,
     matchListHead,
     matchListBody
   ] = await Promise.all([
-    EventTypeTabs({ onSelect: store.setActiveEventType }),
-    SportMenu({ onSelect: store.setActiveSport }),
-    MatchListHead({ onSelectMarketType: store.setActiveMarketType }),
+    EventMenu({ onSelect: gameStore.setActiveEvent }),
+    SportMenu({ onSelect: gameStore.setActiveSport }),
+    MatchListHead({ onSelectMarketType: gameStore.setActiveMarketType }),
     MatchListBody()
   ])
-  sportMenu.y = eventTypeTabs.height
-  matchListHead.y = sportMenu.y + sportMenu.height
-  matchListBody.y = matchListHead.y + matchListHead.height
 
-  const scene = new Container()
-  scene.addChild(eventTypeTabs, sportMenu, matchListHead, matchListBody)
+  autorun(() => eventMenu.setActive(gameStore.activeEvent))
+  autorun(() => sportMenu.setData(gameStore.sportMenu))
+  autorun(() => sportMenu.setActive(gameStore.activeSport))
+  autorun(() => matchListHead.setMatchList(gameStore.matchList))
+  autorun(() => matchListHead.setActiveMarketType(gameStore.activeMarketType))
+  autorun(() => matchListBody.setMatchList(gameStore.matchList))
 
-  autorun(() => eventTypeTabs.setActiveEventType(store.activeEventType))
-  autorun(() => sportMenu.setSportMenu(store.sportMenu))
-  autorun(() => sportMenu.setActiveSport(store.activeSport))
-  autorun(() => matchListHead.setMatchList(store.matchList))
-  autorun(() => matchListHead.setActiveMarketType(store.activeMarketType))
-  autorun(() => matchListBody.setMatchList(store.matchList))
+  gameStore.loadSportMenu()
+  gameStore.loadMatchList()
 
-  store.loadSportMenu()
-  store.loadMatchList()
-
-  return scene
+  return Box(eventMenu, sportMenu, matchListHead, matchListBody).vertical()
 }
