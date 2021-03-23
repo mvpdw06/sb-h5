@@ -2,9 +2,9 @@ import { autorun } from 'mobx'
 import { gameStore } from '@app/stores'
 import Box from '@app/views/shared/Box'
 import EventMenu from './menu/EventMenu'
+import SportMenu from './menu/SportMenu'
 import MatchListBody from './MatchListBody'
 import MatchListHead from './MatchListHead'
-import SportMenu from './SportMenu'
 
 export default async function MatchListScene() {
   const [
@@ -20,8 +20,8 @@ export default async function MatchListScene() {
   ])
 
   autorun(() => eventMenu.setActive(gameStore.activeEvent))
-  autorun(() => sportMenu.setSportMenu(gameStore.sportMenu))
-  autorun(() => sportMenu.setActiveSport(gameStore.activeSport))
+  autorun(() => sportMenu.setData(gameStore.sportMenu))
+  autorun(() => sportMenu.setActive(gameStore.activeSport))
   autorun(() => matchListHead.setMatchList(gameStore.matchList))
   autorun(() => matchListHead.setActiveMarketType(gameStore.activeMarketType))
   autorun(() => matchListBody.setMatchList(gameStore.matchList))

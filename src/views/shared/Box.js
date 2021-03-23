@@ -104,6 +104,6 @@ export default function Box(...children) {
       box.addChild(_bg)
     }
 
-    box.addChild(..._views)
+    if (_views.length) box.addChild(..._views)
   }
 }
