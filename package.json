@@ -30,7 +30,10 @@
     ]
   },
   "eslintConfig": {
-    "extends": "@0y0/vanilla"
+    "extends": "@0y0/vanilla",
+    "rules": {
+      "no-sequences": "off"
+    }
   },
   "prettier": {
     "arrowParens": "avoid",
