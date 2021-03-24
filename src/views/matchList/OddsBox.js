@@ -38,6 +38,7 @@ export default function OddsBox({ width, height, odds, selection }) {
   function setActive(selectedSelections) {
     const isActive = selectedSelections.some(sel => sel.id === selection.id)
     container
+      .clear()
       .beginFill(
         isActive
           ? containerStyle.highlightColor
