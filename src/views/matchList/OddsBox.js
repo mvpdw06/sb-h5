@@ -30,7 +30,8 @@ export default function OddsBox({ width, height, odds, selection }) {
 
   container.addChild(oddsText)
 
-  autorun(() => setActive(playStore.selectedSelections))
+  const dispose = autorun(() => setActive(playStore.selectedSelections))
+  container.on('destroyed', () => dispose())
 
   return container
 
